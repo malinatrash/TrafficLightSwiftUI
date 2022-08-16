@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6B0795328AC0B8200AD9C36 /* TrafficLightButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0795228AC0B8200AD9C36 /* TrafficLightButtonView.swift */; };
 		E6B1741E28ABAB96005A6884 /* TrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1741D28ABAB96005A6884 /* TrafficLightApp.swift */; };
 		E6B1742028ABAB96005A6884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1741F28ABAB96005A6884 /* ContentView.swift */; };
 		E6B1742228ABAB99005A6884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B1742128ABAB99005A6884 /* Assets.xcassets */; };
 		E6B1742528ABAB99005A6884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B1742428ABAB99005A6884 /* Preview Assets.xcassets */; };
+		E6B1742C28ABAC02005A6884 /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1742B28ABAC02005A6884 /* TrafficLightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6B0795228AC0B8200AD9C36 /* TrafficLightButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightButtonView.swift; sourceTree = "<group>"; };
 		E6B1741A28ABAB96005A6884 /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B1741D28ABAB96005A6884 /* TrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightApp.swift; sourceTree = "<group>"; };
 		E6B1741F28ABAB96005A6884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6B1742128ABAB99005A6884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6B1742428ABAB99005A6884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6B1742B28ABAC02005A6884 /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				E6B1741D28ABAB96005A6884 /* TrafficLightApp.swift */,
+				E6B1742B28ABAC02005A6884 /* TrafficLightView.swift */,
+				E6B0795228AC0B8200AD9C36 /* TrafficLightButtonView.swift */,
 				E6B1741F28ABAB96005A6884 /* ContentView.swift */,
 				E6B1742128ABAB99005A6884 /* Assets.xcassets */,
 				E6B1742328ABAB99005A6884 /* Preview Content */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B1742028ABAB96005A6884 /* ContentView.swift in Sources */,
+				E6B0795328AC0B8200AD9C36 /* TrafficLightButtonView.swift in Sources */,
+				E6B1742C28ABAC02005A6884 /* TrafficLightView.swift in Sources */,
 				E6B1741E28ABAB96005A6884 /* TrafficLightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
