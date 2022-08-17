@@ -12,10 +12,10 @@ struct TrafficLightView: View {
     let color: Color
     var body: some View {
         Circle()
-            .foregroundColor(color).opacity(opacity)
+            .foregroundColor(color)
+            .opacity(opacity)
             .frame(width: 170, height: 170)
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: 10)
     }
 }
 
